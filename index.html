@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>FoliaPak - producent worków i opakowań foliowych, Koleczkowo</title>
+<meta name="description" content="Producent opakowań z folii: worki próżniowe PA/PE, worki LDPE 20-140 µm, folia w rolkach, nadruki. Produkcja według specyfikacji klienta, Koleczkowo, od 2001 roku.">
+<meta name="theme-color" content="#F76500">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" imagesizes="100vw" media="(max-width:700px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:701px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/bsc700-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/b400-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/b400-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/b400-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/b600-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/b600-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Barlow SC";font-weight:700;font-display:swap;src:url(fonts/bsc700-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Barlow SC";font-weight:700;font-display:swap;src:url(fonts/bsc700-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--o:#F76500;--ob:#E35A00;--obh:#C94F00;--gr:#7F7F7F;--t:#16191D;--s:#4D545C;--g:#F2F3F5;--l:#DADDE1;--d:#1F2328;--hh:70px;--gut:clamp(16px,3.2vw,56px);--w:1320px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Barlow",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:18px;line-height:1.58;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-family:"Barlow SC","Barlow",system-ui,sans-serif;font-weight:700;line-height:1.04;letter-spacing:-.01em}
+h1{font-size:clamp(44px,5.6vw,96px)}
+h2{font-size:clamp(34px,3.7vw,58px)}
+h3{font-size:23px;line-height:1.15}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;background:var(--ob);color:#fff;font-weight:600;font-size:19px;text-decoration:none;padding:18px 28px;line-height:1.2;border:0;cursor:pointer;font-family:inherit;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%);transition:background .2s}
+.btn:hover{background:var(--obh)}
+.btn svg{width:22px;height:22px;flex:none}
+
+/* motyw: przekroj folii - warstwy */
+.warstwy{display:block;width:92px;height:13px;margin-top:20px;background:linear-gradient(var(--o),var(--o)) 0 0/100% 5px no-repeat,linear-gradient(var(--gr),var(--gr)) 0 7px/72% 2px no-repeat,linear-gradient(var(--gr),var(--gr)) 0 11px/46% 2px no-repeat}
+.dk .warstwy{background:linear-gradient(var(--o),var(--o)) 0 0/100% 5px no-repeat,linear-gradient(#9AA0A6,#9AA0A6) 0 7px/72% 2px no-repeat,linear-gradient(#9AA0A6,#9AA0A6) 0 11px/46% 2px no-repeat}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-bottom-color:var(--l);box-shadow:0 6px 24px rgba(20,24,28,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:28px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#5F6368}
+.logo svg{width:40px;height:40px;flex:none}
+.logo span{display:flex;flex-direction:column;line-height:1}
+.logo b{font-weight:400;font-size:25px;letter-spacing:.11em;color:#6B6F73}
+.logo small{font-size:11.5px;letter-spacing:.42em;color:var(--gr);margin-top:4px;padding-left:1px}
+.menu{display:flex;gap:2px;margin-left:auto}
+.menu a{text-decoration:none;font-weight:600;font-size:16.5px;padding:10px 14px;color:var(--t);position:relative}
+.menu a:after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:3px;background:var(--o);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+.menu a:hover:after,.menu a.on:after{transform:scaleX(1)}
+.top .tel{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:600;font-size:17px;color:var(--t);border:1.5px solid var(--t);padding:10px 15px;white-space:nowrap;transition:background .2s,color .2s}
+.top .tel:hover{background:var(--t);color:#fff}
+.top .tel svg{width:17px;height:17px}
+.burger{display:none;margin-left:auto;width:48px;height:48px;border:1.5px solid var(--t);background:#fff;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger i{display:block;width:20px;height:2px;background:var(--t);position:relative;transition:background .2s}
+.burger i:before,.burger i:after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--t);transition:transform .25s}
+.burger i:before{top:-6px}.burger i:after{top:6px}
+.top.open .burger i{background:transparent}
+.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}
+.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;color:#fff;background:#1d2733;overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:70% 50%}
+.hero:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(14,18,24,.88) 0%,rgba(14,18,24,.7) 34%,rgba(14,18,24,.18) 64%,rgba(14,18,24,0) 80%),linear-gradient(0deg,rgba(14,18,24,.55) 0%,rgba(14,18,24,0) 34%)}
+.hero .in{position:relative;z-index:3;width:min(var(--w),100% - 2*var(--gut));margin:auto auto 0;padding:44px 0 clamp(56px,8vh,104px)}
+.hero h1{max-width:9.5em}
+.hero .lead{font-size:clamp(18px,1.4vw,22px);line-height:1.5;max-width:31em;margin-top:24px;color:rgba(255,255,255,.93)}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;margin-top:34px}
+.hero .gdzie{font-size:16.5px;line-height:1.45;color:rgba(255,255,255,.9)}
+.hero .gdzie a{color:#fff;font-weight:600;text-decoration:none;font-size:19px}
+.hero .gdzie a:hover{text-decoration:underline;text-underline-offset:3px}
+/* pas warstw na dole zdjecia */
+.przekroj{position:absolute;left:0;right:0;bottom:0;z-index:2;height:20px}
+.przekroj i{position:absolute;left:0;right:0;display:block}
+.przekroj i:nth-child(1){bottom:12px;height:2px;background:rgba(255,255,255,.55)}
+.przekroj i:nth-child(2){bottom:6px;height:3px;background:rgba(190,195,200,.75)}
+.przekroj i:nth-child(3){bottom:0;height:6px;background:var(--o)}
+
+/* sekcje */
+section{padding:clamp(68px,8vw,124px) 0}
+.sz{background:var(--g)}
+.hd{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px 48px;margin-bottom:clamp(32px,3.8vw,56px)}
+.hd p{max-width:34em;color:var(--s);font-size:18.5px}
+
+/* produkty - karty */
+.tor{display:flex;gap:clamp(14px,1.6vw,24px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;padding-bottom:4px;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor.drag *{pointer-events:none}
+.karta{flex:0 0 clamp(276px,25.5vw,370px);scroll-snap-align:start;background:#fff;user-select:none;border:1px solid var(--l);display:flex;flex-direction:column}
+.foto{position:relative;aspect-ratio:4/3;overflow:hidden;background:#e4e7ea}
+.foto img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.karta:hover .foto img{transform:scale(1.04)}
+.karta .tx{padding:22px 22px 0;flex:1}
+.karta p{margin-top:9px;color:var(--s);font-size:16.5px;line-height:1.55}
+.film{display:flex;align-items:center;gap:12px;margin:20px 22px 22px;padding-top:16px;border-top:1px solid var(--l);font-size:14.5px;font-weight:600;color:var(--t)}
+.film .pk{display:flex;flex-direction:column;gap:2px;width:38px;flex:none}
+.film .pk i{display:block;height:4px;background:var(--o)}
+.film .pk i+i{height:3px;background:var(--gr)}
+.film .pk i+i+i{height:2px;background:#B9BDC1}
+.film span{color:var(--s);font-weight:400}
+.nav{display:flex;gap:10px}
+.nav button{width:54px;height:54px;border:1.5px solid var(--t);background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--t);transition:background .2s,color .2s}
+.nav button:hover{background:var(--t);color:#fff}
+.nav svg{width:20px;height:20px}
+.inne{margin-top:34px;font-size:18px;color:var(--s);max-width:62em}
+.inne b{color:var(--t);font-weight:600}
+
+/* folie - ciemna sekcja */
+.dk{background:var(--d);color:#fff}
+.dk .hd p{color:rgba(255,255,255,.8)}
+.folie{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.4vw,40px)}
+.folie article{border-top:1px solid rgba(255,255,255,.22);padding-top:28px}
+.schemat{height:118px;display:flex;flex-direction:column;justify-content:flex-end;gap:5px;margin-bottom:26px}
+.schemat div{display:flex;align-items:center;gap:14px;font-size:14px;font-weight:600;letter-spacing:.02em;color:rgba(255,255,255,.75)}
+.schemat i{display:block;flex:none;width:58%;background:var(--o)}
+.schemat .pe{background:#C7CBD0}
+.schemat .pa{background:var(--o)}
+.schemat .pet{background:#FFB37A}
+.schemat .met{background:linear-gradient(90deg,#8E949B,#E7EAED 45%,#9AA0A6)}
+.schemat .dr{background:repeating-linear-gradient(90deg,#fff 0 9px,transparent 9px 15px)}
+.folie h3{font-size:clamp(25px,2vw,30px)}
+.folie p{margin-top:12px;color:rgba(255,255,255,.82);font-size:17px}
+.folie ul{list-style:none;margin:18px 0 0;padding:0;font-size:16.5px;color:rgba(255,255,255,.92)}
+.folie li{padding:9px 0 9px 22px;border-top:1px solid rgba(255,255,255,.12);position:relative}
+.folie li:before{content:"";position:absolute;left:0;top:18px;width:11px;height:3px;background:var(--o)}
+
+/* nadruki */
+.druk{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(32px,5vw,90px);align-items:center}
+.druk .zd{position:relative}
+.druk .zd img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.druk .zd img+img{position:absolute;width:44%;right:-1px;bottom:-1px;border:8px solid #fff;border-right:0;border-bottom:0;aspect-ratio:4/3}
+.druk .lead2{color:var(--s);margin-top:22px;font-size:18.5px}
+.rodz{list-style:none;margin:30px 0 0;padding:0;border-top:1px solid var(--l)}
+.rodz li{display:grid;grid-template-columns:minmax(150px,210px) 1fr;gap:6px 24px;padding:15px 0;border-bottom:1px solid var(--l);font-size:16.5px;color:var(--s)}
+.rodz b{color:var(--t);font-weight:600;font-size:17.5px}
+
+/* zamowienie */
+.zam{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,5vw,90px);align-items:start}
+.lista{list-style:none;margin:28px 0 0;padding:0;counter-reset:l}
+.lista li{padding:13px 0 13px 44px;border-top:1px solid var(--l);position:relative;font-size:17.5px;color:var(--s)}
+.lista li:last-child{border-bottom:1px solid var(--l)}
+.lista li b{color:var(--t);font-weight:600}
+.lista li:before{counter-increment:l;content:counter(l);position:absolute;left:0;top:13px;font-family:"Barlow SC",sans-serif;font-weight:700;font-size:20px;color:var(--ob);line-height:1.4}
+.termin{margin-top:26px;background:#fff;border-left:5px solid var(--o);padding:18px 22px;font-size:17px;color:var(--s)}
+.termin b{color:var(--t)}
+.form{background:#fff;padding:clamp(24px,3vw,44px);border:1px solid var(--l)}
+.form h3{font-size:28px}
+.form .pod{color:var(--s);font-size:16px;margin-top:6px}
+.pola{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin-top:24px}
+.pola .c{grid-column:1/-1}
+.pola label{display:flex;flex-direction:column;gap:6px;font-size:15px;font-weight:600}
+.pola input,.pola select,.pola textarea{font:inherit;font-size:17px;font-weight:400;color:var(--t);padding:13px 14px;border:1.5px solid #C4C9CE;background:#fff;border-radius:0;width:100%}
+.pola textarea{min-height:110px;resize:vertical}
+.pola input:focus,.pola select:focus,.pola textarea:focus{outline:none;border-color:var(--o);box-shadow:0 0 0 3px rgba(247,101,0,.18)}
+.form .btn{margin-top:22px;width:100%}
+.form .info{margin-top:14px;font-size:14px;color:var(--s)}
+.form .ok{display:none;margin-top:14px;padding:14px 16px;background:var(--g);border-left:4px solid var(--o);font-size:16px}
+.form.wys .ok{display:block}
+
+/* o firmie */
+.firma{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,90px);align-items:center}
+.firma .zd img{width:100%;aspect-ratio:12/7;object-fit:cover}
+.firma p+p{margin-top:16px}
+.firma .lead2{color:var(--s);font-size:18.5px;margin-top:22px}
+.ludzie{list-style:none;margin:30px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;border-top:1px solid var(--l);padding-top:22px}
+.ludzie b{display:block;font-size:18px;font-weight:600}
+.ludzie span{display:block;color:var(--s);font-size:15.5px;line-height:1.4;margin-top:4px}
+
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(300px,.8fr) 1.2fr;gap:clamp(30px,4vw,70px);align-items:stretch}
+.dane{display:flex;flex-direction:column;gap:26px}
+.dane .tl{font-family:"Barlow SC",sans-serif;font-size:clamp(34px,3.2vw,48px);font-weight:700;text-decoration:none;color:var(--t);line-height:1.05}
+.dane .tl:hover{color:var(--ob)}
+.dane dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:12px 22px;font-size:17.5px}
+.dane dt{color:var(--s)}
+.dane dd{margin:0;font-weight:600}
+.dane dd a{text-decoration-color:var(--l);text-underline-offset:3px}
+.godz{background:#fff;border-left:5px solid var(--o);padding:18px 22px;display:flex;justify-content:space-between;gap:16px;align-items:center;font-size:17px}
+.godz b{font-family:"Barlow SC",sans-serif;font-size:23px;font-weight:700}
+.mapa{position:relative;min-height:440px;background:#dfe3e7;overflow:hidden}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--s);font-size:15px}
+
+/* stopka */
+.stopka{background:var(--g);color:var(--s);padding:48px 0 28px;font-size:15.5px;border-top:1px solid var(--l)}
+.stopka .g{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px 40px}
+.stopka h4{margin:0 0 10px;color:var(--t);font-size:15.5px;font-weight:600}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:var(--t)}
+.stopka p+p{margin-top:4px}
+.stopka .opis{margin-top:14px;max-width:28em}
+.stopka .dol{margin-top:34px;padding-top:20px;border-top:1px solid var(--l);display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center}
+.stopka .zr{font-size:12.5px;margin-top:16px;line-height:1.5;opacity:.85}
+
+/* Wylinka - oficjalny znak */
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+/* responsywnosc */
+@media (max-width:1120px){.menu a{padding:10px 10px;font-size:16px}.menu a:after{left:10px;right:10px}}
+@media (max-width:980px){
+  .menu,.top .tel{display:none}
+  .burger{display:flex}
+  .top.open .menu{display:flex;position:absolute;top:var(--hh);left:0;right:0;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--l);box-shadow:0 18px 30px rgba(20,24,28,.12);padding:8px var(--gut) 20px}
+  .top.open .menu a{padding:15px 2px;font-size:19px;border-bottom:1px solid var(--g)}
+  .top.open .menu a:after{left:2px;right:auto;width:40px;bottom:10px}
+  .top.open .menu .mtel{display:flex}
+  .folie{grid-template-columns:1fr}
+  .druk,.zam,.firma,.kont{grid-template-columns:1fr}
+  .schemat{height:auto}
+}
+.menu .mtel{display:none;margin-top:14px;justify-content:center;background:var(--ob);color:#fff!important;border:0!important}
+.menu .mtel:after{display:none}
+@media (max-width:700px){
+  body{font-size:17px}
+  :root{--hh:64px}
+  .logo svg{width:36px;height:36px}
+  .logo b{font-size:22px}
+  .logo small{font-size:10.5px}
+  .hero picture img{object-position:50% 50%}
+  .hero:before{background:linear-gradient(180deg,rgba(14,18,24,.15) 0%,rgba(14,18,24,.3) 30%,rgba(14,18,24,.84) 60%,rgba(14,18,24,.94) 100%)}
+  .hero .in{padding:56px 0 52px}
+  h1{font-size:clamp(40px,12vw,54px)}
+  .hero .lead{margin-top:16px;font-size:17px}
+  .hero .cta{margin-top:26px;gap:16px}
+  .hero .btn{width:100%}
+  .nav{display:none}
+  .tor{margin-inline:calc(-1*var(--gut));padding-inline:var(--gut);scroll-padding-inline:var(--gut)}
+  .karta{flex-basis:80vw}
+  .pola{grid-template-columns:1fr}
+  .rodz li{grid-template-columns:1fr}
+  .ludzie{grid-template-columns:1fr;gap:14px}
+  .mapa{min-height:320px}
+  .stopka .g{grid-template-columns:1fr 1fr}
+  .stopka .g>div:first-child{grid-column:1/-1}
+  .godz{flex-direction:column;align-items:flex-start;gap:4px}
+  .druk .zd img+img{display:none}
+}
+@media (max-width:700px) and (max-height:700px){
+  .hero .in{padding:24px 0 30px}
+  h1{font-size:40px}
+  .hero .lead{font-size:16.5px;margin-top:12px}
+  .hero .cta{margin-top:24px;gap:12px}
+  .hero .btn{padding:16px 24px}
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="FoliaPak - strona główna">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" x2="1"><stop offset="0" stop-color="#E9E9E9"/><stop offset=".55" stop-color="#B5B5B5"/><stop offset="1" stop-color="#7F7F7F"/></linearGradient></defs><path d="M62 2C26 3 2 16 2 32s24 29 60 30C36 57 15 46 15 32S36 7 62 2z" fill="#F76500"/><path d="M29 9.5C45 10.5 55 20 55 32S45 53.5 29 54.5C39 49.5 45 41.5 45 32S39 14.5 29 9.5z" fill="url(#lgS)"/><path d="M29.5 20.5C36.5 21.5 41 26 41 32s-4.5 10.5-11.5 11.5c3.6-3 5.6-7 5.6-11.5s-2-8.5-5.6-11.5z" fill="url(#lgS)"/><path d="M33 26.4c-3.6.9-5.6 3-5.6 5.6s2 4.7 5.6 5.6c-1.6-1.6-2.4-3.5-2.4-5.6s.8-4 2.4-5.6z" fill="#9A9A9A"/></svg>
+      <span><b>FOLIA PAK</b><small>producent</small></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu">
+      <a href="#produkty">Opakowania</a>
+      <a href="#folie">Rodzaje folii</a>
+      <a href="#nadruki">Nadruki</a>
+      <a href="#wycena">Wycena</a>
+      <a href="#firma">O firmie</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="mtel" href="tel:+48501614264">Zadzwoń: 501 614 264</a>
+    </nav>
+    <a class="tel" href="tel:+48501614264"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6.2 2.5 4 3.1c-.9.3-1.4 1.1-1.3 2 .6 5.6 5.6 10.6 11.2 11.2.9.1 1.7-.4 2-1.3l.6-2.2-3.4-1.6-1.6 1.6c-1.9-.9-3.4-2.4-4.3-4.3l1.6-1.6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>501 614 264</a>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-label="FoliaPak - producent opakowań foliowych">
+  <picture>
+    <source media="(max-width:700px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="100vw" width="480" height="576">
+    <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" width="1600" height="686" alt="Folia nawijana na rolkę w maszynie do cięcia i przewijania" fetchpriority="high">
+  </picture>
+  <div class="in">
+    <h1>Z nami zapakujesz wszystko</h1>
+    <p class="lead">Produkujemy worki próżniowe PA/PE, worki z&nbsp;folii LDPE od 20 do 140&nbsp;µm i&nbsp;folię w&nbsp;rolkach - z&nbsp;nadrukiem lub bez, według Państwa specyfikacji. Koleczkowo, od 2001 roku.</p>
+    <div class="cta">
+      <a class="btn" href="#wycena">Zamów wycenę<svg viewBox="0 0 22 22" aria-hidden="true"><path d="M3 11h15M12.5 5.5 18 11l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></a>
+      <p class="gdzie">lub zadzwoń: <a href="tel:+48501614264">+48 501 614 264</a><br>pon.-pt. 8:00-16:00</p>
+    </div>
+  </div>
+  <div class="przekroj" aria-hidden="true"><i></i><i></i><i></i></div>
+</section>
+
+<section id="produkty">
+  <div class="wrap">
+    <div class="hd">
+      <div><h2>Opakowania do każdej branży</h2><span class="warstwy" aria-hidden="true"></span></div>
+      <div class="nav" aria-hidden="true">
+        <button type="button" data-k="-1" tabindex="-1"><svg viewBox="0 0 20 20"><path d="M12.5 4 6.5 10l6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+        <button type="button" data-k="1" tabindex="-1"><svg viewBox="0 0 20 20"><path d="m7.5 4 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+      </div>
+    </div>
+    <div class="tor" id="tor">
+      <article class="karta"><div class="foto"><img src="img/k-spoz-440.webp" srcset="img/k-spoz-440.webp 440w, img/k-spoz-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Wędliny, mięso i sery zapakowane próżniowo"></div><div class="tx"><h3>Mięso i wędliny</h3><p>Worki próżniowe do pakowarek komorowych i maszyn rolowych. Chronią smak i aromat, przedłużają trwałość.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia PA/PE<span>próżniowa</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-sery-440.webp" srcset="img/k-sery-440.webp 440w, img/k-sery-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Sery zapakowane próżniowo w przezroczyste worki"></div><div class="tx"><h3>Sery i nabiał</h3><p>Worki barierowe przezroczyste, mleczne lub w kolorze - także z nadrukiem Państwa marki.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia PA/PE<span>barierowa</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-ryby-440.webp" srcset="img/k-ryby-440.webp 440w, img/k-ryby-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Dzwonka łososia zapakowane próżniowo"></div><div class="tx"><h3>Ryby i owoce morza</h3><p>Worki próżniowe do ryb świeżych i wędzonych, przezroczyste lub metalizowane.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia PET/PE<span>wielowarstwowa</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-kurczak-440.webp" srcset="img/k-kurczak-440.webp 440w, img/k-kurczak-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Kurczak z rożna obok torebek do pakowania"></div><div class="tx"><h3>Kurczak z rożna</h3><p>Torebki na całego kurczaka (250 x 310 mm) i na połówkę (250 x 260 mm), dla sklepów i gastronomii.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Na zamówienie<span>gotowe wymiary</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-opal-440.webp" srcset="img/k-opal-440.webp 440w, img/k-opal-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Pellet w foliowym worku przy kominku"></div><div class="tx"><h3>Opał, nawozy, ogród</h3><p>Worki na pellet, ekogroszek, węgiel, korę, nawozy, ziemię i torf - płaskie lub z zakładkami bocznymi.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia LDPE<span>20-140 µm</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-opony-440.webp" srcset="img/k-opony-440.webp 440w, img/k-opony-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Opona zapakowana w foliowy worek w warsztacie"></div><div class="tx"><h3>Opony i felgi</h3><p>Worki 110 x 100 cm z folii 35 µm mieszczą dwie opony 16″ naraz. Pakowane po 100 sztuk.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia LDPE<span>mleczna, 35 µm</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-elektr-440.webp" srcset="img/k-elektr-440.webp 440w, img/k-elektr-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Dysk komputerowy w czarnym worku foliowym"></div><div class="tx"><h3>Części i elektronika</h3><p>Worki na części komputerowe, części maszyn i AGD - chronią przed kurzem i zabrudzeniem w transporcie.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia LDPE<span>lub PA/PE</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-med-440.webp" srcset="img/k-med-440.webp 440w, img/k-med-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Rolki rękawów foliowych do zastosowań medycznych"></div><div class="tx"><h3>Opakowania medyczne</h3><p>Worki odporne na promieniowanie UV, worki na odpady sanitarne i szpitalne, rolki i rękawy higieniczne.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia LDPE<span>lub wielowarstwowa</span></div></article>
+      <article class="karta"><div class="foto"><img src="img/k-detal-440.webp" srcset="img/k-detal-440.webp 440w, img/k-detal-640.webp 640w" sizes="(max-width:700px) 80vw, 370px" width="440" height="330" loading="lazy" decoding="async" draggable="false" alt="Kolorowe torebki foliowe z nadrukiem na produkty spożywcze"></div><div class="tx"><h3>Handel i drobnica</h3><p>Torebki i woreczki na produkty sypkie oraz drobnicę, w kolorze, z logo i opisem produktu.</p></div><div class="film"><span class="pk" aria-hidden="true"><i></i><i></i><i></i></span>Folia LDPE<span>z nadrukiem</span></div></article>
+    </div>
+    <p class="inne">Produkujemy też <b>worki bankowe na bilon i&nbsp;banknoty</b>, <b>przekładki foliowe</b>, <b>pokrowce na palety</b> i&nbsp;worki do konfekcji paliwa czy odpadów - w&nbsp;rolkach albo na sztuki, ze standardowych wymiarów lub na wymiar.</p>
+  </div>
+</section>
+
+<section class="dk" id="folie">
+  <div class="wrap">
+    <div class="hd">
+      <div><h2>Folia dobrana do produktu</h2><span class="warstwy" aria-hidden="true"></span></div>
+      <p>Grubość, rodzaj i kolor folii ustalamy pod to, co Państwo pakują i na jakiej maszynie. Poniżej przekroje trzech podstawowych rodzajów.</p>
+    </div>
+    <div class="folie">
+      <article>
+        <div class="schemat" aria-hidden="true">
+          <div><i class="pe" style="height:30px"></i>LDPE</div>
+        </div>
+        <h3>LDPE, jednowarstwowa</h3>
+        <p>Miękka i elastyczna folia polietylenowa - trudno ją uszkodzić. Przezroczysta, mleczna albo barwiona na dowolny kolor, grubość od 20 do 140&nbsp;µm.</p>
+        <ul><li>worki do transportu i magazynowania</li><li>opał, nawozy, ziemia, kora, opony</li><li>wyściółki kartonów i palet</li><li>dodatek z barierą UV i do mrożenia</li></ul>
+      </article>
+      <article>
+        <div class="schemat" aria-hidden="true">
+          <div><i class="pa" style="height:12px"></i>PA</div>
+          <div><i class="pe" style="height:26px"></i>PE</div>
+        </div>
+        <h3>PA/PE, próżniowa</h3>
+        <p>Folia barierowa do pakowania próżniowego na pakowarkach i maszynach rolowych. Odcina powietrze, chroni smak i aromat, przedłuża trwałość.</p>
+        <ul><li>mięso, wędliny, sery, ryby</li><li>worki bankowe na banknoty i bilon</li><li>części przemysłowe, mniejsza objętość</li><li>także PET/PE i OPA/PE</li></ul>
+      </article>
+      <article>
+        <div class="schemat" aria-hidden="true">
+          <div><i class="met" style="height:10px"></i>PET met</div>
+          <div><i class="dr" style="height:4px"></i>nadruk</div>
+          <div><i class="pe" style="height:22px"></i>PE</div>
+        </div>
+        <h3>Wielowarstwowa z&nbsp;nadrukiem</h3>
+        <p>Bezbarwna, biała, metalizowana srebrna lub złota. Nadruk nawierzchniowy albo międzywarstwowy - schowany między warstwami, nie ściera się.</p>
+        <ul><li>opakowania z marką na półkę</li><li>worki metalizowane z eurozawieszką</li><li>worki PET/PE do ryb i owoców morza</li><li>nadruk z atestem do kontaktu z żywnością</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="nadruki">
+  <div class="wrap druk">
+    <div class="zd">
+      <img src="img/f-druk-900.webp" srcset="img/f-druk-560.webp 560w, img/f-druk-900.webp 900w" sizes="(max-width:980px) 92vw, 640px" width="900" height="598" loading="lazy" alt="Nadruk na folii w maszynie drukującej">
+      <img src="img/f-roto-560.webp" width="560" height="373" loading="lazy" alt="Worki z nadrukiem na linii produkcyjnej">
+    </div>
+    <div>
+      <h2>Nadruk z&nbsp;Państwa logo</h2><span class="warstwy" aria-hidden="true"></span>
+      <p class="lead2">Od projektu, przez matryce, po nadruk na gotowych workach lub folii w&nbsp;rolce. Drukujemy według Państwa projektu, a&nbsp;jeśli go nie ma - przygotujemy go pod konkretny produkt. Nadruk nawet w 4&nbsp;kolorach, na folii jedno- i&nbsp;wielowarstwowej.</p>
+      <ul class="rodz">
+        <li><b>Całopowierzchniowy</b>na całej powierzchni worka lub folii, w dowolnym kolorze, także z barierą UV</li>
+        <li><b>Tapetowy</b>bez stałego miejsca względem zgrzewu - worki w dowolnych rozmiarach</li>
+        <li><b>Pozycjonowany</b>w stałym miejscu względem zgrzewu, przypisany do rozmiaru worka</li>
+        <li><b>Międzywarstwowy</b>między warstwami folii - estetyczny i odporny na ścieranie</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sz" id="wycena">
+  <div class="wrap zam">
+    <div>
+      <h2>Jak zamówić</h2><span class="warstwy" aria-hidden="true"></span>
+      <p class="lead2" style="color:var(--s);margin-top:22px;font-size:18.5px">Wystarczy kilka informacji. Nasz dział handlowy pomoże dobrać folię i&nbsp;parametry, a&nbsp;potem przygotuje wycenę i&nbsp;termin produkcji.</p>
+      <ol class="lista">
+        <li><b>Rodzaj opakowania</b> - worki próżniowe, worki LDPE, folia w rolkach, przekładki</li>
+        <li><b>Zastosowanie</b> - co będzie pakowane i na jakiej maszynie</li>
+        <li><b>Wymiary, grubość i kolor</b> - grubość w µm, folia przezroczysta, mleczna lub w kolorze</li>
+        <li><b>Ilość i nadruk</b> - liczba sztuk lub rolek, projekt nadruku, jeśli jest</li>
+        <li><b>Termin</b> - ekspres do 7 dni albo standard do 14 dni</li>
+      </ol>
+      <p class="termin"><b>Zamówienie z wyprzedzeniem 14-21 dni</b> to pewna dostawa przed terminem i możliwość upustu. Gotowe worki są też dostępne z magazynu.</p>
+    </div>
+    <form class="form" id="form" novalidate>
+      <h3>Zapytanie o wycenę</h3>
+      <p class="pod">Odpowiadamy w dni robocze, 8:00-16:00.</p>
+      <div class="pola">
+        <label>Firma<input name="firma" autocomplete="organization"></label>
+        <label>Imię i nazwisko<input name="osoba" autocomplete="name"></label>
+        <label>E-mail<input name="email" type="email" autocomplete="email"></label>
+        <label>Telefon<input name="tel" type="tel" autocomplete="tel"></label>
+        <label class="c">Rodzaj produktu<select name="rodzaj"><option>Worki próżniowe PA/PE</option><option>Worki z folii LDPE</option><option>Worki PET/PE lub metalizowane</option><option>Folia w rolkach</option><option>Przekładki foliowe</option><option>Inne - opiszę w uwagach</option></select></label>
+        <label>Wymiary (mm)<input name="wym" placeholder="np. 300 x 400"></label>
+        <label>Ilość<input name="ilosc" placeholder="np. 10 000 szt."></label>
+        <label class="c">Uwagi: grubość, kolor, nadruk, termin<textarea name="uwagi"></textarea></label>
+      </div>
+      <button class="btn" type="submit">Wyślij zapytanie<svg viewBox="0 0 22 22" aria-hidden="true"><path d="M3 11h15M12.5 5.5 18 11l-5.5 5.5" fill="none" stroke="currentColor" stroke-width="2"/></svg></button>
+      <p class="info">Formularz pokazowy - w podglądzie nie wysyła wiadomości.</p>
+      <p class="ok" role="status">To podgląd strony, więc wiadomość nie została wysłana. Na docelowej stronie zapytanie trafi od razu do działu handlowego.</p>
+    </form>
+  </div>
+</section>
+
+<section id="firma">
+  <div class="wrap firma">
+    <div>
+      <h2>Producent z&nbsp;Koleczkowa</h2><span class="warstwy" aria-hidden="true"></span>
+      <p class="lead2">Działamy od 2001 roku. Specjalizujemy się w opakowaniach z folii LDPE i folii próżniowych - doradzamy, projektujemy i produkujemy dla firm z wielu branż, na stałe kontrakty i pojedyncze zlecenia.</p>
+      <p class="lead2" style="margin-top:14px">Stawiamy na jakość i powtarzalność produktu oraz dobrze zorganizowaną logistykę. Park maszynowy stale unowocześniamy, żeby nadążać za wymaganiami klientów.</p>
+      <ul class="ludzie">
+        <li><b>Dariusz Murczyński</b><span>właściciel</span></li>
+        <li><b>Monika Reich</b><span>dział handlowy: doradztwo, wyceny, zamówienia</span></li>
+        <li><b>Karolina Kassin</b><span>dział finansów, faktury</span></li>
+      </ul>
+    </div>
+    <div class="zd"><img src="img/wjazd-1000.webp" srcset="img/wjazd-640.webp 640w, img/wjazd-1000.webp 1000w" sizes="(max-width:980px) 92vw, 640px" width="1000" height="417" loading="lazy" alt="Siedziba FoliaPak w Koleczkowie - wjazd na teren firmy"></div>
+  </div>
+</section>
+
+<section class="sz" id="kontakt">
+  <div class="wrap">
+    <div class="hd"><div><h2>Kontakt</h2><span class="warstwy" aria-hidden="true"></span></div></div>
+    <div class="kont">
+      <div class="dane">
+        <a class="tl" href="tel:+48501614264">+48 501 614 264</a>
+        <dl>
+          <dt>E-mail</dt><dd><a href="mailto:info@foliapak.com">info@foliapak.com</a></dd>
+          <dt>Adres</dt><dd>ul. Obrońców Wybrzeża 4<br>84-207 Koleczkowo</dd>
+          <dt>Firma</dt><dd>ABC Dariusz Murczyński<br>NIP PL 584 105 69 87</dd>
+        </dl>
+        <div class="godz"><span>Biuro czynne</span><b>pon.-pt. 8:00-16:00</b></div>
+      </div>
+      <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Obro%C5%84c%C3%B3w+Wybrze%C5%BCa+4,+84-207+Koleczkowo&amp;z=15&amp;output=embed">
+        <div class="ph">Mapa: ul. Obrońców Wybrzeża 4, Koleczkowo</div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="g">
+      <div>
+        <a class="logo" href="#" aria-label="FoliaPak - do góry"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" x2="1"><stop offset="0" stop-color="#E9E9E9"/><stop offset=".55" stop-color="#B5B5B5"/><stop offset="1" stop-color="#7F7F7F"/></linearGradient></defs><path d="M62 2C26 3 2 16 2 32s24 29 60 30C36 57 15 46 15 32S36 7 62 2z" fill="#F76500"/><path d="M29 9.5C45 10.5 55 20 55 32S45 53.5 29 54.5C39 49.5 45 41.5 45 32S39 14.5 29 9.5z" fill="url(#lgS)"/><path d="M29.5 20.5C36.5 21.5 41 26 41 32s-4.5 10.5-11.5 11.5c3.6-3 5.6-7 5.6-11.5s-2-8.5-5.6-11.5z" fill="url(#lgS)"/><path d="M33 26.4c-3.6.9-5.6 3-5.6 5.6s2 4.7 5.6 5.6c-1.6-1.6-2.4-3.5-2.4-5.6s.8-4 2.4-5.6z" fill="#9A9A9A"/></svg><span><b>FOLIA PAK</b><small>producent</small></span></a>
+        <p class="opis">Worki i opakowania z folii na indywidualne zamówienie oraz gotowe opakowania z magazynu.</p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <p><a href="tel:+48501614264">+48 501 614 264</a></p>
+        <p><a href="mailto:info@foliapak.com">info@foliapak.com</a></p>
+        <p>pon.-pt. 8:00-16:00</p>
+      </div>
+      <div>
+        <h4>Adres</h4>
+        <p>ul. Obrońców Wybrzeża 4</p>
+        <p>84-207 Koleczkowo</p>
+        <p><a href="#wycena">Zamów wycenę</a></p>
+      </div>
+    </div>
+    <div class="dol">
+      <span>&copy; 2026 FoliaPak - ABC Dariusz Murczyński</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=foliapak.com&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+    <p class="zr">Podgląd koncepcji strony. Zdjęcia i teksty z obecnej strony foliapak.com.</p>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>
