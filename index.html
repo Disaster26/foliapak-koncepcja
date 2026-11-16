@@ -12,13 +12,15 @@
 <link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:701px)" fetchpriority="high">
 <link rel="preload" as="font" type="font/woff2" href="fonts/bsc700-rdzen.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="fonts/b400-rdzen.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/bsc700-pl.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/b400-pl.woff2" crossorigin>
 <style>
-@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/b400-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
-@font-face{font-family:"Barlow";font-weight:400;font-display:swap;src:url(fonts/b400-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Barlow";font-weight:400;font-display:optional;src:url(fonts/b400-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Barlow";font-weight:400;font-display:optional;src:url(fonts/b400-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 @font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/b600-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
 @font-face{font-family:"Barlow";font-weight:600;font-display:swap;src:url(fonts/b600-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
-@font-face{font-family:"Barlow SC";font-weight:700;font-display:swap;src:url(fonts/bsc700-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
-@font-face{font-family:"Barlow SC";font-weight:700;font-display:swap;src:url(fonts/bsc700-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Barlow SC";font-weight:700;font-display:optional;src:url(fonts/bsc700-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+2122,U+2192}
+@font-face{font-family:"Barlow SC";font-weight:700;font-display:optional;src:url(fonts/bsc700-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
 :root{--o:#F76500;--ob:#E35A00;--obh:#C94F00;--gr:#7F7F7F;--t:#16191D;--s:#4D545C;--g:#F2F3F5;--l:#DADDE1;--d:#1F2328;--hh:70px;--gut:clamp(16px,3.2vw,56px);--w:1320px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
@@ -31,7 +33,7 @@ h2{font-size:clamp(34px,3.7vw,58px)}
 h3{font-size:23px;line-height:1.15}
 p{margin:0}
 .wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;background:var(--ob);color:#fff;font-weight:600;font-size:19px;text-decoration:none;padding:18px 28px;line-height:1.2;border:0;cursor:pointer;font-family:inherit;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%);transition:background .2s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;background:var(--ob);color:#fff;font-family:"Barlow SC","Barlow",sans-serif;font-weight:700;font-size:19.5px;letter-spacing:.01em;text-decoration:none;padding:18px 28px;line-height:1.2;border:0;cursor:pointer;font-family:inherit;clip-path:polygon(0 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%);transition:background .2s}
 .btn:hover{background:var(--obh)}
 .btn svg{width:22px;height:22px;flex:none}
 
@@ -47,7 +49,7 @@ p{margin:0}
 .logo svg{width:40px;height:40px;flex:none}
 .logo span{display:flex;flex-direction:column;line-height:1}
 .logo b{font-weight:400;font-size:25px;letter-spacing:.11em;color:#6B6F73}
-.logo small{font-size:11.5px;letter-spacing:.42em;color:var(--gr);margin-top:4px;padding-left:1px}
+.logo small{font-size:11.5px;letter-spacing:.42em;color:#62666A;margin-top:4px;padding-left:1px}
 .menu{display:flex;gap:2px;margin-left:auto}
 .menu a{text-decoration:none;font-weight:600;font-size:16.5px;padding:10px 14px;color:var(--t);position:relative}
 .menu a:after{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:3px;background:var(--o);transform:scaleX(0);transform-origin:left;transition:transform .25s}
@@ -191,7 +193,7 @@ section{padding:clamp(68px,8vw,124px) 0}
 /* stopka */
 .stopka{background:var(--g);color:var(--s);padding:48px 0 28px;font-size:15.5px;border-top:1px solid var(--l)}
 .stopka .g{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px 40px}
-.stopka h4{margin:0 0 10px;color:var(--t);font-size:15.5px;font-weight:600}
+.stopka .sh{margin:0 0 10px!important;color:var(--t);font-size:15.5px;font-weight:600}
 .stopka a{text-decoration:none}
 .stopka a:hover{color:var(--t)}
 .stopka p+p{margin-top:4px}
@@ -263,7 +265,7 @@ section{padding:clamp(68px,8vw,124px) 0}
 <body>
 <header class="top" id="top">
   <div class="wrap">
-    <a class="logo" href="#" aria-label="FoliaPak - strona główna">
+    <a class="logo" href="#">
       <svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" x2="1"><stop offset="0" stop-color="#E9E9E9"/><stop offset=".55" stop-color="#B5B5B5"/><stop offset="1" stop-color="#7F7F7F"/></linearGradient></defs><path d="M62 2C26 3 2 16 2 32s24 29 60 30C36 57 15 46 15 32S36 7 62 2z" fill="#F76500"/><path d="M29 9.5C45 10.5 55 20 55 32S45 53.5 29 54.5C39 49.5 45 41.5 45 32S39 14.5 29 9.5z" fill="url(#lgS)"/><path d="M29.5 20.5C36.5 21.5 41 26 41 32s-4.5 10.5-11.5 11.5c3.6-3 5.6-7 5.6-11.5s-2-8.5-5.6-11.5z" fill="url(#lgS)"/><path d="M33 26.4c-3.6.9-5.6 3-5.6 5.6s2 4.7 5.6 5.6c-1.6-1.6-2.4-3.5-2.4-5.6s.8-4 2.4-5.6z" fill="#9A9A9A"/></svg>
       <span><b>FOLIA PAK</b><small>producent</small></span>
     </a>
@@ -363,7 +365,7 @@ section{padding:clamp(68px,8vw,124px) 0}
 <section id="nadruki">
   <div class="wrap druk">
     <div class="zd">
-      <img src="img/f-druk-900.webp" srcset="img/f-druk-560.webp 560w, img/f-druk-900.webp 900w" sizes="(max-width:980px) 92vw, 640px" width="900" height="598" loading="lazy" alt="Nadruk na folii w maszynie drukującej">
+      <img src="img/f-druk-900.webp" srcset="img/f-druk-560.webp 560w, img/f-druk-720.webp 720w, img/f-druk-900.webp 900w" sizes="(max-width:980px) 92vw, 640px" width="900" height="598" loading="lazy" alt="Nadruk na folii w maszynie drukującej">
       <img src="img/f-roto-560.webp" width="560" height="373" loading="lazy" alt="Worki z nadrukiem na linii produkcyjnej">
     </div>
     <div>
@@ -454,17 +456,17 @@ section{padding:clamp(68px,8vw,124px) 0}
   <div class="wrap">
     <div class="g">
       <div>
-        <a class="logo" href="#" aria-label="FoliaPak - do góry"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" x2="1"><stop offset="0" stop-color="#E9E9E9"/><stop offset=".55" stop-color="#B5B5B5"/><stop offset="1" stop-color="#7F7F7F"/></linearGradient></defs><path d="M62 2C26 3 2 16 2 32s24 29 60 30C36 57 15 46 15 32S36 7 62 2z" fill="#F76500"/><path d="M29 9.5C45 10.5 55 20 55 32S45 53.5 29 54.5C39 49.5 45 41.5 45 32S39 14.5 29 9.5z" fill="url(#lgS)"/><path d="M29.5 20.5C36.5 21.5 41 26 41 32s-4.5 10.5-11.5 11.5c3.6-3 5.6-7 5.6-11.5s-2-8.5-5.6-11.5z" fill="url(#lgS)"/><path d="M33 26.4c-3.6.9-5.6 3-5.6 5.6s2 4.7 5.6 5.6c-1.6-1.6-2.4-3.5-2.4-5.6s.8-4 2.4-5.6z" fill="#9A9A9A"/></svg><span><b>FOLIA PAK</b><small>producent</small></span></a>
+        <a class="logo" href="#"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" x2="1"><stop offset="0" stop-color="#E9E9E9"/><stop offset=".55" stop-color="#B5B5B5"/><stop offset="1" stop-color="#7F7F7F"/></linearGradient></defs><path d="M62 2C26 3 2 16 2 32s24 29 60 30C36 57 15 46 15 32S36 7 62 2z" fill="#F76500"/><path d="M29 9.5C45 10.5 55 20 55 32S45 53.5 29 54.5C39 49.5 45 41.5 45 32S39 14.5 29 9.5z" fill="url(#lgS)"/><path d="M29.5 20.5C36.5 21.5 41 26 41 32s-4.5 10.5-11.5 11.5c3.6-3 5.6-7 5.6-11.5s-2-8.5-5.6-11.5z" fill="url(#lgS)"/><path d="M33 26.4c-3.6.9-5.6 3-5.6 5.6s2 4.7 5.6 5.6c-1.6-1.6-2.4-3.5-2.4-5.6s.8-4 2.4-5.6z" fill="#9A9A9A"/></svg><span><b>FOLIA PAK</b><small>producent</small></span></a>
         <p class="opis">Worki i opakowania z folii na indywidualne zamówienie oraz gotowe opakowania z magazynu.</p>
       </div>
       <div>
-        <h4>Kontakt</h4>
+        <p class="sh">Kontakt</p>
         <p><a href="tel:+48501614264">+48 501 614 264</a></p>
         <p><a href="mailto:info@foliapak.com">info@foliapak.com</a></p>
         <p>pon.-pt. 8:00-16:00</p>
       </div>
       <div>
-        <h4>Adres</h4>
+        <p class="sh">Adres</p>
         <p>ul. Obrońców Wybrzeża 4</p>
         <p>84-207 Koleczkowo</p>
         <p><a href="#wycena">Zamów wycenę</a></p>
